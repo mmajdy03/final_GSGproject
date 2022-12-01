@@ -8,10 +8,10 @@ class order_controller:
     def addneworder(self,client_id:str,book_id:str,status:str,date:str):
 
 
-        cli = file_order(client_id=int(client_id), book_id=int(book_id),status=status, date=date, id=self.id_counter)
+        ord = file_order(client_id=int(client_id), book_id=int(book_id),status=status, date=date, id=self.id_counter)
         self.id_counter += 1
-        self.order_list.append(cli)
+        self.order_list.append(ord)
 
     def print_all__order(self=None):
         for item in self.order_list:
-         pass
+           pass
