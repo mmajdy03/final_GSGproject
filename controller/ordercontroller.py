@@ -14,5 +14,4 @@ class order_controller:
 
     def print_all__order(self=None):
         for item in self.order_list:
-            print(item., "\n", item.get_full_name(), "\n", item.get_age(), "\n", item.get_id_no(), "\n",
-                  item.get_phone_no(), "\n")
+         pass
