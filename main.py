@@ -4,7 +4,7 @@ from controller.bookscontroller import bookscontroller
 cli_controller= client_controller()
 libr_cntroller = librarian_controller()
 book_controller= bookscontroller()
-
+order_controller=
 def get_clint_inputs():
     full_name = input("Enter the full name :")
     age = input("Enter the age :")
@@ -19,6 +19,13 @@ def get_librarian_inputs():
     id_no = input("Enter the full name :")
     emplyment = input("Enter the employment :")
     libr_cntroller.addnewlibrarian(full_name=full_name, age=age, id_no=id_no, emplyment=emplyment)
+def get_librarian_inputs():
+    full_name = input("Enter the full name :")
+    age = input("Enter the full name :")
+    id_no = input("Enter the full name :")
+    emplyment = input("Enter the employment :")
+    libr_cntroller.addnewlibrarian(full_name=full_name, age=age, id_no=id_no, emplyment=emplyment)
+
 
 
 A1 = input("Enter the profile number to be registered\n"

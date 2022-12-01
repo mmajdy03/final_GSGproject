@@ -11,7 +11,7 @@ class bookscontroller(books):
         if title.isspace() or title == None:
             print("invalid name value")
             return
-
+        print(utils.check_book_is_vaiable())
         boo = books(title=title, description=description, author=author,status=status, id=self.id_counter)
         self.id_counter += 1
         self.books_list.append(boo)
